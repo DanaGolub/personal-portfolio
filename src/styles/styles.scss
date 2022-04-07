@@ -1,0 +1,24 @@
+// Base
+@use './base/reset';
+// @use './base/typography';
+
+// Components
+@use './components/body';
+@use './components/wrapper';
+@use './components/header';
+// @use './components/hamburger';
+@use './components/nav';
+@use './components/intro';
+@use './components/portfolio';
+@use './components/contact';
+@use './components/footer';
+// @use './components/main';
+// @use './components/sections';
+// @use './components/table';
+// @use './components/gallery';
+// @use './components/footer';
+// Google Fonts
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora&display=swap');

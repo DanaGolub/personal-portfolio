@@ -1,0 +1,51 @@
+@use "../utilities/variables"as *;
+@use "../utilities/mixins"as *;
+
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.header-component {
+    height: calc(100vh - 80px);
+    border-bottom: 20px solid rgb(82, 98, 99);
+
+    img {
+        @include img-cover;
+    }
+}
+
+.ityped-cursor {
+    font-size: 4rem;
+    opacity: 1;
+    color: white;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
+    animation-direction: alternate;
+}
+
+.aboutme-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+    h1 {
+        color: rgb(83, 80, 80);
+        font-size: 3em;
+        width: 60%;
+    }
+}
+
+.name {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: bold;
+}

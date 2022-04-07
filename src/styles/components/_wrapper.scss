@@ -1,0 +1,46 @@
+@use "../utilities/variables"as *;
+@use "../utilities/mixins"as *;
+
+
+.wrapper {
+    // height: 100vh;
+    scroll-behavior: smooth;
+
+    .jump-to-block { 
+        display: block; 
+        margin-top: -80px;
+        padding-bottom: 80px; 
+        display:block;
+      }
+
+      .homepage-section {
+          // border: 5px dotted green;
+
+          position: relative;
+          top: -20px;
+        //   height: 600px;
+        @media (min-width: $tabletPortrait){
+          height: calc(100vh - 80px);
+        }
+      }
+
+   // .sections-container {
+    //     height: calc(100vh - 80px);
+    //     width: 100%;
+    //     background-color: pink;
+    //     position: relative;
+    //     top: 80px;
+
+
+    //     scroll-snap-type: y mandatory;
+    //     scrollbar-width: none;
+    //     &::-webkit-scrollbar{
+    //         display: none;
+    //     }
+
+    //     > *:not(:last-child){
+    //         width: 100%;
+    //         height: calc(100vh - 80px);
+    //     }
+    // }
+}
