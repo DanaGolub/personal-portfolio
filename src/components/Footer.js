@@ -7,12 +7,11 @@ import linkedInLogo from '../images/linkedInlogo.png'
 function Footer() {
     return (
         <footer className="footer-component">
-            Footer
-            <img src={githubIcon} alt="git-logo" />
-            {/* <a href="https://www.linkedin.com/in/bohdana-golubiev-1ba17761/"><i class="fa-brands fa-linkedin-in"></i>
-            </a> */}
-            {/* <FontAwesomeIcon icon="fa-brands fa-linkedin-in" /> */}
-            {/* <p><FontAwesomeIcon icon={brands('html5')}  size="3x" className="html5-icon"/></p> */}
+            <div className="footer-follow"><p>follow me</p> <img src={githubIcon} alt="git-logo" /><img src={githubIcon} alt="git-logo" /></div>
+            <div className="footer-connect">
+                <p>let's connect</p>
+                <p className="footer-email"><a href="mailto:bogdanako@gmail.com" className="footer-email">bogdanako@gmail.com</a></p>
+            </div>
         </footer>
     )
 }

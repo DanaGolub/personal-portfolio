@@ -11,23 +11,18 @@ function Intro() {
             </div>
             <div className="about-container">
                 <h2>ABOUT ME</h2>
-                <p>*Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Nostrum explicabo quasi labore odit quaerat! Debitis fugit in
-                    illo laborum quia, itaque vitae, quas ratione et culpa consequuntur
-                    dolores magnam dolorem!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Nostrum explicabo quasi labore odit quaerat! Debitis fugit in
-                    illo laborum quia, itaque vitae, quas ratione et culpa consequuntur
-                    dolores magnam dolorem!
-                    <br /><br />
-                    *Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Nostrum explicabo quasi labore odit quaerat! Debitis fugit in
-                    illo laborum quia, itaque vitae, quas ratione et culpa consequuntur
-                    dolores magnam dolorem!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Nostrum explicabo quasi labore odit quaerat! Debitis fugit in
-                    illo laborum quia, itaque vitae, quas ratione et culpa consequuntur
-                    dolores magnam dolorem!
+                <p>Thank you for visiting my page!
+                    <br />
+                    A little bit about me - I am a web/software developer who is about to graduate from the
+                    Software Systems Developer Program at BCIT. Dreams come true, I say this with certainty, and well, "you
+                    get what you give" is something to add.
+                    I am a versatile person who loves spending time with family, trail running, skiing, singing, reading books and learning about new cultures and languages
+                    (on both human and programming spectrum). I have lived in 5 different countries before, was born and raised in Ukraine and
+                    a part of my childhood spent in Argentina.
+                    I hold a Bachelors of Arts from Simon Fraser University (major in Economics) and completed an exchange program
+                    at the Universidad Complutense de Madrid a number of years back. <br />
+                    I reckon that we live in an ever-changing world, and I strive to propell positive changes. <br />
+                    Lets connect.
                 </p>
             </div>
         </section>
