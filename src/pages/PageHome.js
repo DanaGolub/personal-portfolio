@@ -13,7 +13,7 @@ function PageHome() {
             <span id="portfolio" className="jump-to-block"> &nbsp; </span>
             <Portfolio />
             <span id="contact" className="jump-to-block"> &nbsp; </span>
-            <Contact />
+            {/* <Contact /> */}
         </>
     )
 }

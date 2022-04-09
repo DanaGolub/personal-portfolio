@@ -1,8 +1,9 @@
 .footer-component {
-    height: 250px;
+
+    font-family: 'Lora', serif;
+
+    padding: 50px;
     background-color: rgb(45, 43, 49);
-    // background-color: rgb(39, 50, 51);
-    margin-top: -20px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -14,7 +15,7 @@
     color: rgb(124, 159, 192);
     font-size: 1.05em;
     margin: auto;
-    text-align: center;
+    // text-align: center;
 
     p {
         padding-left: 12px;
@@ -29,4 +30,6 @@
     color: white;
     font-size: 1.25em;
     text-decoration: none;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    // font-weight: bold
 }

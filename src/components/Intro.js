@@ -10,7 +10,7 @@ function Intro() {
                 <img className="personal-photo" src={photo} alt="sky" />
             </div>
             <div className="about-container">
-                <h2>ABOUT ME</h2>
+                <h2>About Me</h2>
                 <p>Thank you for visiting my page!
                     <br />
                     A little bit about me - I am a web/software developer who is about to graduate from the
