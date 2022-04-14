@@ -8,9 +8,13 @@
     left: 0;
     z-index: 999;
 
+
     a {
         color: black;
         text-decoration: none;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 }
 
@@ -28,6 +32,7 @@
             margin: 0;
             line-height: 80px;
         }
+
         a {
             font-size: 40px;
             padding-left: 15px;
@@ -41,14 +46,13 @@
             padding: 0;
             margin: 0;
         }
-        
+
         a {
             font-size: 28px;
             padding: 0 15px;
-
+            padding-bottom: 16px;
             line-height: 80px;
             display: block;
         }
     }
 }
-

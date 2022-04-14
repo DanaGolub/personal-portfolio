@@ -10,7 +10,7 @@ function Console() {
 
     return (
         <div className="contact-container homepage-section" id="contact">
-
+            {/* 
             <div className="form-container">
 
                 <form id="portfolio" >
@@ -34,27 +34,8 @@ function Console() {
                             type="text" />
                     </label>
 
-                    {/* <label for="name">Name:
-                        <input
-                            type="text"
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                        />
-                    </label><br />
-                    <label for="email">Email:
-                        <input
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                            type="text" />
-                    </label><br />
-                    <label for="message">Message:
-                        <input
-                            value={message}
-                            onChange={e => setMessage(e.target.value)}
-                            type="text" />
-                    </label> */}
                 </form>
-            </div>
+            </div> */}
             {/* <span id="contact" className="jump-to-block"> &nbsp; </span> */}
             {/* <Footer /> */}
         </div>

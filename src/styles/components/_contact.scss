@@ -4,11 +4,13 @@
 }
 
 .form-container {
-    background-image: url("./../../images/dot-grid.png");
+    // background-image: url("./../../images/dot-grid.png");
+    background-color: #9fc8ce67;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -20px;
 }
 
 form {

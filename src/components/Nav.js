@@ -12,9 +12,9 @@ function Nav() {
         </div>
         <div className="right-nav">
           <ul>
-            <HashLink to="/#intro">About</HashLink>
-            <HashLink to="/#portfolio">Projects</HashLink>
-            <HashLink to="/#footer">Contact</HashLink>
+            <HashLink to="/#intro">about</HashLink>
+            <HashLink to="/#portfolio">projects</HashLink>
+            <HashLink to="/#contact">contact</HashLink>
             {/* <HashLink to="/#contact">Contact</HashLink> */}
           </ul>
         </div>

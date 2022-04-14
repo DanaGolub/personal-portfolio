@@ -12,8 +12,9 @@ function PageHome() {
             <Intro />
             <span id="portfolio" className="jump-to-block"> &nbsp; </span>
             <Portfolio />
-            {/* <span id="contact" className="jump-to-block"> &nbsp; </span> */}
-            {/* <Contact /> */}
+            <span id="contact" className="jump-to-block"> &nbsp; </span>
+            <Contact />
+            {/* <span id="footer" className="jump-to-block"> &nbsp; </span> */}
         </>
     )
 }
