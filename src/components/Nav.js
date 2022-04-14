@@ -14,7 +14,8 @@ function Nav() {
           <ul>
             <HashLink to="/#intro">About</HashLink>
             <HashLink to="/#portfolio">Projects</HashLink>
-            <HashLink to="/#contact">Contact</HashLink>
+            <HashLink to="/#footer">Contact</HashLink>
+            {/* <HashLink to="/#contact">Contact</HashLink> */}
           </ul>
         </div>
       </div>
