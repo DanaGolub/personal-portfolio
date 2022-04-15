@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import PJCart from './PJCard'
 import cat from '../images/cat.jpg'
-import ThriftBook from '../images/ThriftBook.PNG'
-import ProduceSupplierImg from '../images/Produce-Supplier-desktop.PNG'
+import ThriftBook from '../images/Thrift-Book.png'
+import ProduceSupplierImg from '../images/PS.png'
+import InstaMock from '../images/IM.png'
 // import ProduceSupplierImg from '../images/Produce-Supplier-desktop.PNG'
 import { listenToAuthHub } from '@aws-amplify/ui'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import ProjectsList from './ProjectsList'
 
 
@@ -66,10 +67,10 @@ function Portfolio() {
 
         <Link to="/portfolio/3" className="gallery-item">
           <div className="each-project">
-            <img src={cat}
+            <img src={InstaMock}
               alt="ThriftBook App Logo"
             />
-            <p className='hidden-text'>Movie App</p>
+            <p className='hidden-text'>Instag-Mock</p>
           </div>
         </Link>
 

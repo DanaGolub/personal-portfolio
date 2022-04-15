@@ -1,9 +1,13 @@
 import { IconLocalFireDepartment } from '@aws-amplify/ui-react';
 import { useEffect } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import cat from '../images/cat.jpg'
-import ProduceSupplier from '../images/localhost_4200_(iPhone 12 Pro).png'
-import ThriftBook from '../images/Thrift-Book-large.PNG'
+
+// import ProduceSupplier from '../images/localhost_4200_(iPhone 12 Pro).png'
+// import ProduceSupplier from '../images/Produce-Supplier-desktop.PNG'
+import ProduceSupplier from '../images/ps-desktop.PNG'
+import ThriftBook from '../images/ThriftBook-medium.PNG'
+import IM from '../images/instag-mock-screen.PNG'
+
 import { FaRegHandPointer } from 'react-icons/fa';
 
 
@@ -50,8 +54,8 @@ const PagePortfolioItem = () => {
         case 3:
             projectName = "Instag-mock App"
             briefDescription = "Web App"
-            aboutPj = "Developed this web application as a practice, with instagram-alike functionality.Users can registed with Cognito, sign-in and upload, modify, view, delete posts (with an image and description) as well as comments to posts. Images are stored in S3 Bucket and the rest of data in DynamoDb. I used Amplify CLI to set up the AWS functionality. Will keep working on this app to give it another life with a rather useful purpose, more details to follow."
-            projectImage = <img src={cat} alt="Thrift Book" />
+            aboutPj = "Developed this web application as a practice, with instagram-alike functionality.Users can registed with Cognito, sign-in and upload, modify, view, delete posts (with an image and description) as well as comments to posts. Images are stored in S3 Bucket and the rest of data in DynamoDb. I used Amplify CLI to set up the AWS backend. Will keep working on this app to give it another life with a rather useful purpose, more details to follow."
+            projectImage = <img src={IM} alt="Thrift Book" />
             pjTechStack = ["React", "AWS", "DynamoDb", "NodeJS", "S3 Bucket", "Cognito", "Amplify", "CSS"]
             liveDemoBool = false
             break;

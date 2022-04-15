@@ -3,19 +3,6 @@
 
 
 //////////////////////////////////MAIN PAGE PORTFOLIO//////////////////////////////////
-// .portfolioList {
-//     font-size: 20px;
-//     margin-right: 50px;
-//     padding: 10px;
-
-//     &.active {
-//         background-color: blue;
-//         color: white;
-//         border-radius: 10px;
-//         cursor: pointer;
-//     }
-// }
-
 
 .portfolio-component {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -52,6 +39,11 @@
         .gallery-item {
             width: 100%;
             text-decoration: none;
+
+        }
+
+        .gallery-item:not(:last-child) {
+            padding-right: 30px;
         }
 
         @media (min-width: $tabletPortrait) {
@@ -99,9 +91,7 @@
             height: 100%;
             position: relative;
             border-radius: 20px;
-            // border: 1px solid grey;
             overflow: hidden;
-            // margin: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -110,8 +100,14 @@
             transition: all .5s ease;
             aspect-ratio: 3 / 2;
 
+            @media (min-width: $tabletPortrait) {
+                aspect-ratio: initial;
+                width: 100%;
+
+            }
+
             &:hover {
-                background-color: rgb(59, 59, 92);
+                background-color: rgba(134, 134, 184, 0.637);
 
                 img {
                     opacity: 0.2;
@@ -125,10 +121,6 @@
                     font-size: 1.1em;
                 }
             }
-        }
-
-        .prsp {
-            object-fit: fill;
         }
 
         img {
@@ -146,14 +138,17 @@
 }
 
 //////////////////////////////////FOR PAGE PORTFOLIO ITEM//////////////////////////////////
-.project-image,
 .uppercase-center {
     padding-top: 50px;
+}
+
+
+.project-image,
+.uppercase-center {
     text-align: center;
     text-transform: uppercase;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     max-width: 500px;
-    // max-height: 900px;
     // aspect-ratio: 1 / 2;
     margin: auto;
 }
@@ -161,10 +156,15 @@
 .project-image {
     box-shadow: 20px 20px 50px grey;
     object-fit: fill;
-    width: 100%;
+    // width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: fill;
     margin-top: 60px;
+
+    img {
+        margin-bottom: -10px;
+    }
 }
 
 .project-full-descr-container {
@@ -190,7 +190,6 @@
     }
 
     span {
-        // border: 1px solid salmon;
         border: 1px solid rgb(129, 184, 230);
         background-color: rgb(129, 184, 230);
         margin-right: 5px;
