@@ -25,7 +25,6 @@
         // color: rgb(168, 170, 64);
         color: rgb(124, 159, 192);
         font-size: 1.05em;
-        // text-align: center;
 
         p {
             padding-left: 12px;
@@ -36,10 +35,14 @@
         }
     }
 
-    .linkedIn-logo-contact,
-    .github-logo-contact {
+    .linkedIn-logo-contact {
         color: black;
         font-size: 2em;
+    }
+
+    .github-logo-contact {
+        font-size: 1.5em;
+        padding-right: 3px;
     }
 
     .email-contact a {
@@ -85,13 +88,8 @@
     .photo-container {
 
         max-width: 1030px;
-        // margin-top: 100px;
         text-align: center;
 
-        // padding-left: 60px;
-        // margin: auto;
-        // justify-content: center;
-        // padding: 100px;
         @include mq($tabletPortrait) {
             padding: 0;
             flex-direction: row;

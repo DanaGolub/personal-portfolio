@@ -2,23 +2,15 @@ import { IconLocalFireDepartment } from '@aws-amplify/ui-react';
 import { useEffect } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 
-// import ProduceSupplier from '../images/localhost_4200_(iPhone 12 Pro).png'
-// import ProduceSupplier from '../images/Produce-Supplier-desktop.PNG'
 import ProduceSupplier from '../images/ps-desktop.PNG'
 import ThriftBook from '../images/ThriftBook-medium.PNG'
 import IM from '../images/instag-mock-screen.PNG'
-// import IM from '../images/insmock.png'
 import { FaRegHandPointer } from 'react-icons/fa';
 
 
 const PagePortfolioItem = () => {
-    // Use the React Router useParams() custom hook to extract the 
-    // "id" parameter passed to this component...
     let { id } = useParams();
 
-
-    // Make sure id is a whole number between 1 and 6 (inclusive)
-    // ...If is not...then send them back to the Portfolio page
     if (isNaN(id) || (id % 1 !== 0) || (id < 1 || id > 6)) {
         return (
             <Navigate to="/portfolio" />
@@ -59,8 +51,6 @@ const PagePortfolioItem = () => {
             pjTechStack = ["React", "AWS", "DynamoDb", "NodeJS", "S3 Bucket", "Cognito", "Amplify", "CSS"]
             liveDemoBool = false
             break;
-        default:
-        // img = <div className="gallery-item"><img src={cat01} alt="Orange kitten" /></div>;
     }
 
     return (
@@ -74,7 +64,6 @@ const PagePortfolioItem = () => {
                     <h3 className="uppercase-center">{briefDescription}</h3>
                     {/* more detailed description ---> */}
                     <div className="project-full-descr-container">
-                        {/* <p className="project-about">{aboutPj}</p> */}
                         <p>{aboutPj}</p>
                         <div className="project-tech-links-container">
                             <div className="project-technologies-container">
@@ -92,10 +81,8 @@ const PagePortfolioItem = () => {
                                         </a>
                                     </span>
                                 }
-                                {/* <span>View App Code</span> */}
                             </div>
                         </div>
-                        {/* </div> */}
                     </div>
 
                 </div>

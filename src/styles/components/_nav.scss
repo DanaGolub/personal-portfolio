@@ -1,3 +1,6 @@
+@use "../utilities/variables"as *;
+@use "../utilities/mixins"as *;
+
 .nav {
     position: fixed;
     background-color: white;
@@ -7,7 +10,6 @@
     top: 0;
     left: 0;
     z-index: 999;
-
 
     a {
         color: black;
@@ -19,7 +21,6 @@
 }
 
 .navigation-container {
-    // padding: 15px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,11 +49,23 @@
         }
 
         a {
-            font-size: 28px;
+            font-size: 15px;
             padding: 0 15px;
             padding-bottom: 16px;
             line-height: 80px;
             display: block;
+
+            img {
+                max-width: none;
+            }
+
+            @media (min-width: 520px) {
+                font-size: 22px;
+            }
+
+            @media (min-width: 570px) {
+                font-size: 28px;
+            }
         }
     }
 }

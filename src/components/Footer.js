@@ -1,8 +1,6 @@
 import React from 'react'
 import githubIcon from '../images/GitHub-Mark-Light-32px.png';
 import linkedInLogo from '../images/linkedInlogo.png'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { FiLinkedin } from 'react-icons/fi';
 
 function Footer() {

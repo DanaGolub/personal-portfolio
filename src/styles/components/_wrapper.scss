@@ -3,44 +3,22 @@
 
 
 .wrapper {
-    // height: 100vh;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 
-    .jump-to-block { 
-        display: block; 
-        margin-top: -80px;
-        padding-bottom: 80px; 
-        display:block;
-      }
+  .jump-to-block {
+    display: block;
+    margin-top: -80px;
+    padding-bottom: 80px;
+    display: block;
+  }
 
-      .homepage-section {
-          // border: 5px dotted green;
+  .homepage-section {
 
-          position: relative;
-          top: -20px;
-        //   height: 600px;
-        @media (min-width: $tabletPortrait){
-          height: calc(100vh - 80px);
-        }
-      }
+    position: relative;
+    top: -20px;
 
-   // .sections-container {
-    //     height: calc(100vh - 80px);
-    //     width: 100%;
-    //     background-color: pink;
-    //     position: relative;
-    //     top: 80px;
-
-
-    //     scroll-snap-type: y mandatory;
-    //     scrollbar-width: none;
-    //     &::-webkit-scrollbar{
-    //         display: none;
-    //     }
-
-    //     > *:not(:last-child){
-    //         width: 100%;
-    //         height: calc(100vh - 80px);
-    //     }
-    // }
+    @media (min-width: $tabletPortrait) {
+      height: calc(100vh - 80px);
+    }
+  }
 }

@@ -9,22 +9,22 @@ function Header() {
 
 
   useEffect(() => {
-      init(textRef.current, 
-        { showCursor: false, 
-          strings: ['Hi, my name is Dana' ],
-          showCursor: true
-        });
+    init(textRef.current,
+      {
+        showCursor: false,
+        strings: ['Hi, my name is Dana'],
+        showCursor: true
+      });
   }, [])
 
   return (
     <header>
-      {/* <Nav /> */}
       <div id="header" className="header-component">
         <img src={sky2} alt="sky" />
         <div className="aboutme-header">
           <h1>
             <span className="name" ref={textRef}>
-              
+
             </span>
           </h1>
         </div>
