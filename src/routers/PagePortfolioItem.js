@@ -7,7 +7,7 @@ import { Link, Navigate, useParams } from 'react-router-dom';
 import ProduceSupplier from '../images/ps-desktop.PNG'
 import ThriftBook from '../images/ThriftBook-medium.PNG'
 import IM from '../images/instag-mock-screen.PNG'
-
+// import IM from '../images/insmock.png'
 import { FaRegHandPointer } from 'react-icons/fa';
 
 

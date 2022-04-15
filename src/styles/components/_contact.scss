@@ -1,25 +1,124 @@
+@use "../utilities/variables"as *;
+@use "../utilities/mixins"as *;
+
+
 .contact-container {
     display: flex;
     flex-direction: column;
-}
-
-.form-container {
-    // background-image: url("./../../images/dot-grid.png");
-    background-color: #9fc8ce67;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -20px;
-}
-
-form {
-    font-size: 20px;
+    text-align: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-weight: bold;
-    position: relative;
-}
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 
-input {
-    width: 375px;
-    height: 35px;
+    .contact-logo-div {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+    }
+
+    .contact-follow,
+    .contact-connect {
+        // color: rgb(177, 170, 170);
+        // color: rgb(168, 170, 64);
+        color: rgb(124, 159, 192);
+        font-size: 1.05em;
+        // text-align: center;
+
+        p {
+            padding-left: 12px;
+        }
+
+        a {
+            color: black;
+        }
+    }
+
+    .linkedIn-logo-contact,
+    .github-logo-contact {
+        color: black;
+        font-size: 2em;
+    }
+
+    .email-contact a {
+        color: black;
+        font-weight: bold;
+        font-size: 1.25em;
+        text-decoration: none;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+    }
+
+    @media (min-width: $tabletPortrait) {
+        flex-direction: row;
+
+        .photo-container {
+            width: 2000px;
+        }
+
+        .contact-logo-div {
+            padding-right: 100px;
+        }
+    }
+
+    .form-container {
+        background-color: #9fc8ce67;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -20px;
+    }
+
+    form {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    input {
+        width: 375px;
+        height: 35px;
+    }
+
+    .photo-container {
+
+        max-width: 1030px;
+        // margin-top: 100px;
+        text-align: center;
+
+        // padding-left: 60px;
+        // margin: auto;
+        // justify-content: center;
+        // padding: 100px;
+        @include mq($tabletPortrait) {
+            padding: 0;
+            flex-direction: row;
+        }
+
+        @include mq($tabletLandscape) {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        @include mq($desktopMedium) {
+            padding-left: 0;
+        }
+
+        @include mq($desktopLarge) {
+            margin-right: 100px;
+        }
+
+        .personal-photo {
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width: $tabletLandscape) {
+        .contact-logo-div {
+            padding-right: 300px;
+        }
+    }
 }

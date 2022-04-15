@@ -22,6 +22,15 @@
     }
 }
 
+.footer-follow-logos {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        max-width: none;
+    }
+}
+
 .footer-follow img {
     padding-left: 10px;
 }

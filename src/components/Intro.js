@@ -6,9 +6,7 @@ import photo from '../images/1517378052094.jpg'
 function Intro() {
     return (
         <section className="intro-component homepage-section">
-            <div className="photo-container">
-                <img className="personal-photo" src={photo} alt="sky" />
-            </div>
+
             <div className="about-container">
                 <h2>About Me</h2>
                 <p>Thank you for visiting my page!
@@ -25,6 +23,44 @@ function Intro() {
                     Lets connect.
                 </p>
             </div>
+            <div className="techstack-container">
+                <div className="techstack-languages">
+                    <h2>Languages</h2>
+                    <ul className="tech-stack-list">
+                        <li>C#</li>
+                        <li>SQL</li>
+                        <li>NoSql</li>
+                        <li>PHP</li>
+                        <li>JS</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Sass</li>
+                        <li>Kotlin</li>
+                    </ul>
+                </div>
+                <div className="techstack-frameworks">
+                    <h2>Frameworks</h2>
+                    <ul className="tech-stack-list">
+                        <li>Node.js</li>
+                        <li>React</li>
+                        <li>Vue</li>
+                        <li>Angular</li>
+                        <li>JS</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Sass</li>
+                        <li>Kotlin</li>
+                    </ul>
+                </div>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            {/* <div className="photo-container">
+                <img className="personal-photo" src={photo} alt="sky" />
+            </div> */}
         </section>
     )
 }

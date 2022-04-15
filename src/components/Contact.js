@@ -1,47 +1,33 @@
 import React from 'react';
 import { useState } from "react";
-import ReactDOM from 'react-dom';
-import Footer from './Footer';
+import githubIcon from '../images/GitHub-Mark-Light-32px.png';
+import linkedInLogo from '../images/linkedInlogo.png'
+import photo from '../images/1517378052094.jpg'
 
-function Console() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { FiLinkedin } from 'react-icons/fi';
+function Contact() {
     return (
         <div className="contact-container homepage-section" id="contact">
-            {/* 
-            <div className="form-container">
-
-                <form id="portfolio" >
-                    <label for="name">Name:
-                        <input
-                            type="text"
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                        />
-                    </label><br />
-                    <label for="email">Email:
-                        <input
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                            type="text" />
-                    </label><br />
-                    <label for="message">Message:
-                        <input
-                            value={message}
-                            onChange={e => setMessage(e.target.value)}
-                            type="text" />
-                    </label>
-
-                </form>
-            </div> */}
-            {/* <span id="contact" className="jump-to-block"> &nbsp; </span> */}
-            {/* <Footer /> */}
+            <div className="photo-container">
+                <img className="personal-photo" src={photo} alt="sky" />
+            </div>
+            <div className="contact-logo-div">
+                <div className="contact-follow">
+                    <p>follow me</p>
+                    <a className="github-logo-contact" href="https://github.com/DanaGolub"><img src={githubIcon} alt="git-logo" /></a>
+                    <a href="https://www.linkedin.com/in/bohdana-golubiev-1ba17761"><FiLinkedin className="linkedIn-logo-contact" /></a>
+                </div>
+                <div className="contact-connect">
+                    <p>let's connect</p>
+                    <p className="email-contact"><a href="mailto:bogdanako@gmail.com">bogdanako@gmail.com</a></p>
+                </div>
+            </div>
         </div>
     )
 }
-export default Console
+export default Contact
 
 
 {/* // <form onSubmit={createTask}>
