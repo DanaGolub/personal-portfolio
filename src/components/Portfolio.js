@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ThriftBook from '../images/Thrift-Book.png'
 import ProduceSupplierImg from '../images/PS.png'
 import InstaMock from '../images/IM.png'

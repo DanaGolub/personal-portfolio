@@ -1,5 +1,3 @@
-import { IconLocalFireDepartment } from '@aws-amplify/ui-react';
-import { useEffect } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 
 import ProduceSupplier from '../images/ps-desktop.PNG'

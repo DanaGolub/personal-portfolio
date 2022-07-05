@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import logo from '../images/BohdanaGolubiev-small.png';
 import { HashLink } from 'react-router-hash-link';
 

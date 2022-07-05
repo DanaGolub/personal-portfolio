@@ -1,6 +1,5 @@
 import React from 'react'
 import sky2 from '../images/sky2.jpg';
-import Nav from './Nav';
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 

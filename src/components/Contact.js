@@ -1,7 +1,4 @@
 import React from 'react';
-import { useState } from "react";
-import githubIcon from '../images/GitHub-Mark-Light-32px.png';
-import linkedInLogo from '../images/linkedInlogo.png'
 import photo from '../images/1517378052094.jpg'
 import { FiLinkedin } from 'react-icons/fi';
 import { AiOutlineGithub } from 'react-icons/ai';
