@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../images/1517378052094.jpg'
+import photoOfSelf from '../images/1517378052094.jpg'
 import { FiLinkedin } from 'react-icons/fi';
 import { AiOutlineGithub } from 'react-icons/ai';
 
@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div className="contact-container homepage-section" id="contact">
             <div className="photo-container">
-                <img className="personal-photo" src={photo} alt="sky" />
+                <img className="personal-photo" src={photoOfSelf} alt="photo-of-self" />
             </div>
             <div className="contact-logo-div">
                 <div className="contact-follow">
